@@ -170,24 +170,24 @@ function HomePage() {
       <Navbar />
       <main id="main-content">
         <HeroSection />
-        <EmergencySection />
         <PromoSection />
         <ManifestoSection />
         <ServicesSection />
-        <TransformationSection />
         <DirectorSection />
         <TeamSection />
+        <TransformationSection />
+        <PatientsSection />
+        <TestimonialsSection />
+        <GallerySection />
         <TechnologySection />
         <VideoSection />
         <StatsSection />
-        <TestimonialsSection />
-        <GallerySection />
-        <PatientsSection />
         <CertificationsSection />
         <InsuranceSection />
         <FinancingSection />
         <BlogSection />
         <FAQSection />
+        <EmergencySection />
         <BookingSection />
         <MapSection />
       </main>

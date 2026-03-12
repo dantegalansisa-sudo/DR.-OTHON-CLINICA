@@ -16,7 +16,6 @@ export default function HeroSection() {
           loop
           playsInline
           className="hero__video"
-          poster="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1800&q=90"
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
@@ -34,8 +33,8 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1, ease: [0.76, 0, 0.24, 1] }}
         >
-          <span className="hero__brand-name">Dental</span>
-          <span className="hero__brand-name hero__brand-name--accent">Luxury</span>
+          <span className="hero__brand-name">Lalane</span>
+          <span className="hero__brand-name hero__brand-name--accent">Dental</span>
         </motion.div>
 
         <motion.div
@@ -108,12 +107,12 @@ export default function HeroSection() {
           transition={{ delay: 2.6, duration: 1 }}
         >
           <div className="data-point">
-            <span className="data-number">+2,400</span>
+            <span className="data-number">+10,000</span>
             <span className="data-label">{t('hero.smiles')}</span>
           </div>
           <div className="data-divider" />
           <div className="data-point">
-            <span className="data-number">15+</span>
+            <span className="data-number">30+</span>
             <span className="data-label">{t('hero.years')}</span>
           </div>
           <div className="data-divider" />
