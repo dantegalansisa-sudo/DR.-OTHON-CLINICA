@@ -15,16 +15,16 @@ const doctors = [
     img: '/imagenes/lalane/dr-ramon-lalane.png',
   },
   {
-    name: 'Dra. Lyda Josefina Amell de Lalane',
-    specialty: 'Odontóloga',
-    bio: 'Especialista en odontología general y preventiva.',
-    img: '/imagenes/lalane/dra-lyda-amell.png',
-  },
-  {
     name: 'Dr. Paul Lalane Valerio',
     specialty: 'Odontólogo',
     bio: 'Especialista en endodoncia y odontología restauradora.',
     img: '/imagenes/lalane/dr-paul-lalane.png',
+  },
+  {
+    name: 'Dra. Lyda Josefina Amell de Lalane',
+    specialty: 'Odontóloga',
+    bio: 'Especialista en odontología general y preventiva.',
+    img: '/imagenes/lalane/dra-lyda-amell.png',
   },
   {
     name: 'Dra. Stephanie M. Hernández Taveras',

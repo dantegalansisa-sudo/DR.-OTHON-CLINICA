@@ -53,13 +53,6 @@ const testimonials = [
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80',
   },
-  {
-    text: 'Tenía los dientes muy dañados por años de descuido. Hoy tengo una sonrisa completamente nueva. Estoy eternamente agradecido.',
-    name: 'Fernando A.',
-    treatment: 'Rehabilitación Oral',
-    rating: 5,
-    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80',
-  },
 ];
 
 const gridTestimonials = testimonials.slice(1);
