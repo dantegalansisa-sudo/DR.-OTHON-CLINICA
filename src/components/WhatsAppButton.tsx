@@ -48,8 +48,7 @@ export default function WhatsAppButton() {
     return () => clearTimeout(timer);
   }, []);
 
-  const message = SECTION_MESSAGES[section] || SECTION_MESSAGES.default;
-  const url = `https://wa.me/message/HL77R3SXVOVRK1`;
+  const url = 'https://wa.me/message/HL77R3SXVOVRK1';
 
   return (
     <div className="whatsapp-wrapper">

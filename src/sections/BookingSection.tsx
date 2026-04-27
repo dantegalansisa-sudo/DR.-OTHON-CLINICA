@@ -164,16 +164,6 @@ export default function BookingSection() {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.currentTarget;
-    const data = new FormData(form);
-    const name = data.get('name') as string;
-    const phone = data.get('phone') as string;
-    const service = data.get('service') as string;
-    const date = data.get('date') as string;
-    const message = data.get('message') as string;
-
-    const text = `Hola, quiero reservar una cita.%0A%0A*Nombre:* ${name}%0A*Teléfono:* ${phone}%0A*Servicio:* ${service}%0A*Fecha preferida:* ${date}${message ? `%0A*Mensaje:* ${message}` : ''}`;
-
     window.open('https://wa.me/message/HL77R3SXVOVRK1', '_blank');
     setSent(true);
     setTimeout(() => setSent(false), 4000);

@@ -17,8 +17,6 @@ export default function ServicePage() {
     );
   }
 
-  const whatsappMsg = encodeURIComponent(`Hola, me interesa el servicio de ${service.title.toLowerCase()}. ¿Podrían darme más información?`);
-
   return (
     <div className="sp">
       {/* Hero */}
