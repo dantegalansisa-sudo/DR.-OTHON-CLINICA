@@ -3,52 +3,22 @@ import RevealText from '../components/RevealText';
 
 const doctors = [
   {
-    name: 'Dr. Eduardo Lalane Valerio',
-    specialty: 'Odontólogo',
-    bio: 'Especialista en rehabilitación oral y prostodoncia.',
-    img: '/imagenes/lalane/dr-eduardo-lalane.png',
+    name: 'Dr. Rolando Álvarez',
+    specialty: 'Especialista en Periodoncia e Implantes Dentales',
+    bio: 'Experto en tratamientos periodontales e implantología dental avanzada.',
+    img: '/imagenes/drothon/dr-rolando.png',
   },
   {
-    name: 'Dr. Ramón Hector Lalane Valerio',
-    specialty: 'Odontólogo',
-    bio: 'Especialista en implantología y cirugía oral.',
-    img: '/imagenes/lalane/dr-ramon-lalane.png',
-  },
-  {
-    name: 'Dr. Paul Lalane Valerio',
-    specialty: 'Odontólogo',
-    bio: 'Especialista en endodoncia y odontología restauradora.',
-    img: '/imagenes/lalane/dr-paul-lalane.png',
-  },
-  {
-    name: 'Dra. Lyda Josefina Amell de Lalane',
+    name: 'Dra. Paola S. Berlanger',
     specialty: 'Odontóloga',
-    bio: 'Especialista en odontología general y preventiva.',
-    img: '/imagenes/lalane/dra-lyda-amell.png',
+    bio: 'Especialista en odontología general y atención integral al paciente.',
+    img: '/imagenes/drothon/dra-paola.png',
   },
   {
-    name: 'Dra. Stephanie M. Hernández Taveras',
-    specialty: 'Odontóloga',
-    bio: 'Especialista en ortodoncia y estética dental.',
-    img: '/imagenes/lalane/dra-stephanie-hernandez.png',
-  },
-  {
-    name: 'Dra. Gissette Reynoso',
-    specialty: 'Odontóloga',
-    bio: 'Especialista en periodoncia y salud gingival.',
-    img: '/imagenes/lalane/dra-gissette-reynoso.png',
-  },
-  {
-    name: 'Dra. Ismelda Filpo Beltré',
-    specialty: 'Odontóloga',
-    bio: 'Especialista en odontopediatría.',
-    img: '/imagenes/lalane/dra-ismelda-filpo.png',
-  },
-  {
-    name: 'Dra. Anneli Lalane',
-    specialty: 'Odontóloga',
-    bio: 'Especialista en estética dental y diseño de sonrisa.',
-    img: '/imagenes/lalane/dra-anneli-lalane.png',
+    name: 'Dra. Angie Capellán',
+    specialty: 'Especialista en Prótesis Dental',
+    bio: 'Experta en rehabilitación protésica y restauraciones dentales.',
+    img: '/imagenes/drothon/dra-angie.png',
   },
 ];
 

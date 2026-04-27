@@ -15,8 +15,8 @@ export default function DirectorSection() {
             transition={{ duration: 1, ease: [0.76, 0, 0.24, 1] as [number, number, number, number] }}
           >
             <img
-              src="/imagenes/lalane/fundadores.png"
-              alt="Dr. Ramon H Lalane M & Dra. Virginia Maria Valerio P — Fundadores"
+              src="/imagenes/drothon/ceo.png"
+              alt="Dr. Othon V. Delgadillo — Director & CEO"
               className="director__photo"
             />
             {/* Accent frame */}
@@ -32,11 +32,11 @@ export default function DirectorSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              Fundadores
+              Director & CEO
             </motion.span>
 
             <RevealText tag="h2" className="director__name">
-              Dr. Ramon H Lalane M & Dra. Virginia Maria Valerio P
+              Dr. Othon V. Delgadillo
             </RevealText>
 
             <motion.div
@@ -46,11 +46,11 @@ export default function DirectorSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.6 }}
             >
+              <span className="director__credential">Implantes y Estética</span>
+              <span className="director__credential-dot" />
               <span className="director__credential">Odontología General</span>
               <span className="director__credential-dot" />
-              <span className="director__credential">Prostodoncia e Implantes</span>
-              <span className="director__credential-dot" />
-              <span className="director__credential">Tradición Familiar</span>
+              <span className="director__credential">Boutique Dental</span>
             </motion.div>
 
             <motion.blockquote
@@ -60,10 +60,10 @@ export default function DirectorSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.7 }}
             >
-              "Fundamos Lalane Dental Team con la visión de crear un centro
-              odontológico donde la excelencia clínica y el trato humano
-              fueran inseparables. Hoy, nuestra familia profesional sigue
-              ese legado con la misma pasión y compromiso de siempre."
+              "Nuestra visión es ser un referente dentro del sector de la odontología,
+              tanto por la calidad de nuestro trabajo como el trato humano. Buscamos
+              mantener la salud bucal y mejorar la estética, para favorecer la calidad
+              de vida de miles de personas."
             </motion.blockquote>
 
             <motion.div
@@ -77,9 +77,9 @@ export default function DirectorSection() {
               }}
             >
               {[
-                { value: '+30', label: 'Años de trayectoria' },
-                { value: '+10,000', label: 'Pacientes atendidos' },
-                { value: '8', label: 'Especialistas en el equipo' },
+                { value: '+5', label: 'Años de experiencia' },
+                { value: '+2,000', label: 'Pacientes atendidos' },
+                { value: '100%', label: 'Dedicación' },
               ].map((stat) => (
                 <motion.div
                   key={stat.label}
@@ -107,8 +107,8 @@ export default function DirectorSection() {
               transition={{ delay: 0.8, duration: 0.8 }}
             >
               <div className="director__signature-line" />
-              <span className="director__signature-name">Dr. Ramon H Lalane M & Dra. Virginia Maria Valerio P</span>
-              <span className="director__signature-role">Fundadores — Lalane Dental Team</span>
+              <span className="director__signature-name">Dr. Othon V. Delgadillo</span>
+              <span className="director__signature-role">Director — Dr. Othón Boutique Dental</span>
             </motion.div>
           </div>
         </div>
